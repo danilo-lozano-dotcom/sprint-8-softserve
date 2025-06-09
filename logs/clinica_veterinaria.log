@@ -1,0 +1,114 @@
+2025-06-06 12:41:27,371 - WARNING - Archivo CSV de mascotas no encontrado.
+2025-06-06 12:41:27,374 - WARNING - Archivo JSON de consultas no encontrado.
+2025-06-06 12:41:27,374 - INFO - Inicio de la aplicación.
+2025-06-06 12:42:05,627 - INFO - Listado solicitado con éxito. No hay consultas registradas.
+2025-06-06 12:43:53,682 - INFO - Datos de mascotas y dueños cargados desde CSV exitosamente
+2025-06-06 12:43:53,705 - INFO - Consultas cargadas desde JSON exitosamente
+2025-06-06 12:43:53,705 - INFO - Inicio de la aplicación.
+2025-06-07 13:16:32,446 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-07 13:16:32,450 - INFO - Datos de mascotas y dueños cargados desde CSV exitosamente
+2025-06-07 13:16:32,465 - INFO - Consultas cargadas desde JSON exitosamente
+2025-06-07 13:16:32,465 - INFO - Inicio de la aplicación.
+2025-06-07 14:12:53,104 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-07 14:12:53,106 - INFO - Inicio de la aplicación.
+2025-06-07 14:13:53,153 - INFO - Mascota 'Firulais' insertada correctamente.
+2025-06-07 14:15:34,833 - INFO - Mascota con ID 1 actualizada correctamente.
+2025-06-07 14:16:25,666 - ERROR - Error en gestión de mascotas
+Traceback (most recent call last):
+  File "c:\Users\danil\OneDrive\Escritorio\Software Development\Programming\Python\Curso SoftServe\sistema_gestion_veterinaria_con_sql\main.py", line 68, in submenu_mascota
+    edad = int(input("Edad: "))
+           ^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'assdasda'
+2025-06-07 14:17:13,601 - ERROR - Error en gestión de mascotas
+Traceback (most recent call last):
+  File "c:\Users\danil\OneDrive\Escritorio\Software Development\Programming\Python\Curso SoftServe\sistema_gestion_veterinaria_con_sql\main.py", line 68, in submenu_mascota
+    edad = int(input("Edad: "))
+           ^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'dfsdsf'
+2025-06-07 14:17:51,352 - INFO - Mascota 'dssda' insertada correctamente.
+2025-06-07 14:18:07,645 - INFO - Mascota con ID 2 eliminada correctamente.
+2025-06-07 14:18:41,017 - INFO - Dueño 'Jairo' insertado correctamente.
+2025-06-07 14:19:33,307 - INFO - Dueño 'DDDAS' insertado correctamente.
+2025-06-07 14:19:49,943 - INFO - Dueño con ID 2 actualizado correctamente.
+2025-06-07 14:20:02,828 - INFO - Dueño con ID 2 eliminado correctamente.
+2025-06-07 14:23:05,412 - INFO - Consulta para mascota ID 2 insertada correctamente.
+2025-06-07 14:24:09,066 - ERROR - Error en gestión de consultas
+Traceback (most recent call last):
+  File "c:\Users\danil\OneDrive\Escritorio\Software Development\Programming\Python\Curso SoftServe\sistema_gestion_veterinaria_con_sql\main.py", line 116, in submenu_consulta
+    id_mascota = int(input("ID de la mascota: "))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'DADAS'
+2025-06-07 14:24:22,958 - INFO - Consulta para mascota ID 1 insertada correctamente.
+2025-06-07 14:24:49,695 - INFO - Consulta con ID 1 actualizada correctamente.
+2025-06-07 14:25:05,868 - INFO - Consulta con ID 1 eliminada correctamente.
+2025-06-07 14:26:22,799 - INFO - Consulta con ID 2 eliminada correctamente.
+2025-06-07 14:26:53,428 - ERROR - Error al cargar mascotas desde CSV: 'Dueño'
+2025-06-07 14:26:53,430 - ERROR - Error al cargar consultas desde JSON: 'id_mascota'
+2025-06-07 14:26:58,700 - INFO - Mascotas exportadas a CSV correctamente.
+2025-06-07 14:26:58,703 - INFO - Consultas exportadas a JSON correctamente.
+2025-06-07 14:27:50,050 - INFO - Cierre de la aplicación.
+2025-06-08 22:47:16,592 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-08 22:47:16,593 - INFO - Inicio de la aplicación.
+2025-06-08 22:56:59,957 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-08 22:56:59,957 - INFO - Inicio de la aplicación.
+2025-06-08 22:57:47,263 - INFO - Consulta para mascota ID 1 insertada correctamente.
+2025-06-08 22:59:13,362 - INFO - Mascota 'Michi' insertada correctamente.
+2025-06-08 23:00:38,420 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-08 23:00:38,422 - INFO - Inicio de la aplicación.
+2025-06-08 23:07:54,652 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-08 23:07:54,654 - INFO - Inicio de la aplicación.
+2025-06-08 23:10:40,599 - INFO - Consulta para mascota ID 2 insertada correctamente.
+2025-06-08 23:13:15,860 - INFO - Consulta con ID 4 actualizada correctamente.
+2025-06-08 23:14:10,176 - INFO - Consulta con ID 4 eliminada correctamente.
+2025-06-08 23:15:50,627 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-08 23:15:50,627 - INFO - Inicio de la aplicación.
+2025-06-08 23:22:30,291 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-08 23:22:30,291 - INFO - Inicio de la aplicación.
+2025-06-08 23:22:57,202 - INFO - Dueño 'Jaime' insertado correctamente.
+2025-06-08 23:24:12,322 - INFO - Dueño con ID 3 actualizado correctamente.
+2025-06-08 23:24:30,817 - INFO - Dueño con ID 3 eliminado correctamente.
+2025-06-08 23:27:53,885 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-08 23:27:53,888 - INFO - Inicio de la aplicación.
+2025-06-08 23:28:08,108 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-08 23:28:08,109 - INFO - Inicio de la aplicación.
+2025-06-08 23:28:34,215 - INFO - Consulta para mascota ID 1 insertada correctamente.
+2025-06-08 23:33:42,015 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-08 23:33:42,017 - INFO - Inicio de la aplicación.
+2025-06-08 23:35:04,657 - INFO - Mascota 'Coco' insertada correctamente.
+2025-06-08 23:36:41,133 - INFO - Mascota 'sdffsd' insertada correctamente.
+2025-06-08 23:37:38,447 - INFO - Mascota con ID 4 actualizada correctamente.
+2025-06-08 23:38:05,265 - INFO - Mascota con ID 4 eliminada correctamente.
+2025-06-08 23:45:29,363 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-08 23:45:29,367 - INFO - Inicio de la aplicación.
+2025-06-09 10:50:55,787 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-09 10:50:55,790 - INFO - Inicio de la aplicación.
+2025-06-09 10:51:21,040 - ERROR - Error al cargar mascotas desde CSV: [Errno 2] No such file or directory: 'mascotas_dueños.csv'
+2025-06-09 10:51:21,042 - ERROR - Error al cargar consultas desde JSON: [Errno 2] No such file or directory: 'consultas.json'
+2025-06-09 10:51:26,083 - INFO - Mascotas exportadas a CSV correctamente.
+2025-06-09 10:51:26,089 - INFO - Consultas exportadas a JSON correctamente.
+2025-06-09 11:03:27,248 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-09 11:03:27,250 - INFO - Inicio de la aplicación.
+2025-06-09 11:03:38,209 - INFO - Mascotas exportadas a CSV correctamente.
+2025-06-09 11:03:38,218 - INFO - Consultas exportadas a JSON correctamente.
+2025-06-09 12:43:16,070 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-09 12:43:16,070 - INFO - Inicio de la aplicación.
+2025-06-09 12:44:13,057 - INFO - Dueño 'Ana' insertado correctamente.
+2025-06-09 12:45:05,002 - INFO - Dueño con ID 4 actualizado correctamente.
+2025-06-09 12:45:20,203 - INFO - Dueño 'dsasad' insertado correctamente.
+2025-06-09 12:45:40,274 - INFO - Dueño con ID 5 eliminado correctamente.
+2025-06-09 12:46:42,167 - INFO - Mascota 'Michi' insertada correctamente.
+2025-06-09 12:47:08,964 - INFO - Mascota 'dsfdsfdsf' insertada correctamente.
+2025-06-09 12:47:41,785 - INFO - Mascota con ID 7 actualizada correctamente.
+2025-06-09 12:47:58,438 - INFO - Mascota con ID 7 eliminada correctamente.
+2025-06-09 12:48:23,028 - ERROR - Error al cargar mascotas desde CSV: [Errno 2] No such file or directory: 'mascotas_dueños.csv'
+2025-06-09 12:48:23,028 - ERROR - Error al cargar consultas desde JSON: [Errno 2] No such file or directory: 'consultas.json'
+2025-06-09 12:50:03,343 - INFO - Consulta para mascota ID 6 insertada correctamente.
+2025-06-09 12:50:46,593 - INFO - Consulta con ID 6 actualizada correctamente.
+2025-06-09 12:51:34,687 - INFO - Consulta con ID 5 eliminada correctamente.
+2025-06-09 12:51:55,731 - INFO - Consulta con ID 6 eliminada correctamente.
+2025-06-09 12:52:30,719 - INFO - Mascotas exportadas a CSV correctamente.
+2025-06-09 12:52:30,726 - INFO - Consultas exportadas a JSON correctamente.
+2025-06-09 12:57:26,077 - INFO - Tablas creadas/verificadas correctamente en la base de datos.
+2025-06-09 12:57:26,079 - INFO - Inicio de la aplicación.
+2025-06-09 12:57:36,881 - INFO - Mascotas exportadas a CSV correctamente.
+2025-06-09 12:57:36,888 - INFO - Consultas exportadas a JSON correctamente.

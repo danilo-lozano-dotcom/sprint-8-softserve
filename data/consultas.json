@@ -1,0 +1,10 @@
+[
+    {
+        "id": 3,
+        "fecha": "2025-02-02",
+        "motivo": "Gastritis",
+        "diagnostico": "Gastritis",
+        "id_mascota": 1,
+        "nombre_mascota": "Firu"
+    }
+]
